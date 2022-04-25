@@ -1,0 +1,131 @@
+.uform , .gform {
+display: none;
+}
+
+.header {
+    background-color: #000000;
+}
+
+.header h1{
+    color: white ;
+    font-weight: bold;
+}
+
+.header p {
+    color: white;
+    font-weight: bold;
+}
+
+.logo img{
+  position:relative;
+  margin-top:60px;
+  margin-left:20px;
+}
+
+.container-header{
+    display: flex;
+}
+
+.left-header{
+    width: 10%;
+
+}
+
+.right-header{
+    flex-grow: 1;
+    margin: auto;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.title {
+  color: rgb(17, 13, 228);
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+table, th, td {
+  border: 1px solid black;
+  position: relative;
+  left: 1px;
+  top: 0px;
+  bottom: 100x;
+}
+  
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+body
+{
+  margin: 0;
+  padding: 50px;
+  background-color: rgb(16, 142, 180);
+  position: relative;
+}
+
+.gallarydiv {
+  position: top;
+}
+
+.tablediv {
+  position: bottom;
+}
+
+div.gallery {
+  margin: 5px;
+  border:10px solid #ccc;
+  float: left;
+  width: 450px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.footerclass {
+  border-style: solid;
+  width: 100%;
+}
+
+.nav_links a {
+  color: white;
+}
